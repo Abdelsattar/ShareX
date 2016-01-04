@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.abdelsattar.sharex" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".logIn"
+            android:label="@string/title_activity_log_in" >
+        </activity>
+        <activity
+            android:name=".signUp"
+            android:label="@string/title_activity_sign_up." >
+        </activity>
+        <activity
+            android:name=".newReview"
+            android:label="@string/title_activity_new_review" >
+        </activity>
+        <activity
+            android:name="com.com.java.taps.likeTap"
+            android:label="@string/title_activity_like_tap" >
+        </activity>
+        <activity
+            android:name="com.com.java.taps.dislikeTap"
+            android:label="@string/title_activity_dislike_tap" >
+        </activity>
+        <activity
+            android:name="com.com.java.taps.favoriteTap"
+            android:label="@string/title_activity_favorite_tap" >
+        </activity>
+        <activity
+            android:name=".home"
+            android:label="@string/title_activity_home" >
+        </activity>
+    </application>
+
+</manifest>
